@@ -1,0 +1,16 @@
+h1{
+color: rgba(11,99,150);
+/*border-color: red;
+border-width: 3px;
+border-style: solid;
+}*/
+
+
+border: 1px solid rgb(200,42,45);
+body{
+	
+	background: url(https://img.freepik.com/free-vector/blue-light-sparkles-background-with-copyspace_1017-20091.jpg?size=626&ext=.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}

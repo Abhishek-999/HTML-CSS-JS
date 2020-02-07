@@ -1,0 +1,127 @@
+/*give the <body > element a background of #bdc3c7 */
+
+body {
+
+	background:  #bdc3c7;
+}
+
+/* make the h1 element #9b59b6  */
+
+h1{
+
+	color: #9b59b6;
+}
+
+/* Make all  <h2> element orange */
+ 
+
+ h2{
+
+ 	color: orange;
+ }
+
+/* make  all <li> elements blue( pick your own hexadecimal blue ) */
+li{
+
+	color: #0040FF ;
+}
+
+/* change the background on evry paragraphh to be yellow  */
+
+p{
+	background: yellow;
+}
+
+
+/* Make all the inputs have 3px red broder   */
+
+input{
+
+	border : 3px solid red;
+}
+
+/* Give evrything with the class 'Hello '   a white background  */
+ .hello {
+
+ 	background: white;
+ }
+
+/*give the element ID 'special'  a 2px solid blue  (pick your own rgb blue   )   */
+
+
+#special {
+
+	border: 2px solid rgb(0,100,200);
+}
+/*Make all the <p>   that are nested inside of divs 25px font (font-size :25px) */
+
+div p{
+
+	font-size: 25px;
+}
+
+/*Make only inputs with type 'text' have a gray background */
+
+input[type="text"]{
+
+	background: gray;
+}
+/*  Give both <p> inside the 3rd <div> a pink background  */
+
+ div:nth-of-type(3)   p{
+
+	background: pink ;
+}
+
+
+/*Give the 2nd <p>'s inside the 3rd <div> a 5px  white border*/
+   div:nth-of-type(2) p:nth-of-type(2){
+border:5px solid white ;
+
+   }
+
+
+
+/*Make the <em> in the 3rd <div> element white and 20px font (font-size:20px) */
+
+div:nth-of-type(3) em{
+
+/*color: 10px solid white;*/
+
+color: white;
+font-size: 20px;
+
+}
+
+/*BONUSS CHALLANGES*/
+/*You may need to research some other selector and properties */
+/*Make all "checked" checkboxes have a left margine of 50px (margine-left:50px)       */
+
+input:checked{
+
+	margin-left: 50px;
+}
+
+/*Make the <label>  element all UPPERCASE without changing the HTML (Definitely look this one up)   */
+
+label {
+ text-transform: uppercase
+}
+
+/* Make the first letter of the element with id 'special'  green and 100px font size (font-size :100)   */
+
+#special:first-letter 
+{
+color: green;
+font-size: 100px;
+}
+
+/* Make the <h1> elements color change to blue when hovered over    */
+h1:hover{
+	color: Blue;
+}
+/*    Make the <a> element's that have been visited gray       */
+
+a:visited {
+	color: gray;
+}
