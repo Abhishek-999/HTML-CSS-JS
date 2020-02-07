@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY First Page </title>
+</head>
+<body>
+
+</body>
+</html>
+
+<h1>Satnaam Ji</h1>
+<!-- control '/' for shortcut to make coments everything -->
+
+
+ldfkjdflkbnldfknbldskfnlksdf<p>  gdgfdfdfgsdfgjkn</p>dfgjkds<b>fngj</b>sdnfgjndsfgndsfgndsf
+<ol>
+	
+	<li>red</li>
+	<li>orange</li>
+	<li>white</li>
+	<li>green</li>
+</ol>
+<ul>
+	
+	<li>red</li>
+	<li>blue</li>
+	<ul>
+		<li>light blue</li>
+		<li>dark blue</li>
+	</ul>
+	<li>white</li>
+	<li>green</li>
+</ul>
