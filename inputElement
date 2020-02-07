@@ -1,0 +1,32 @@
+<!--Radio button
+	select tag
+	text area-->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Input Type</title>
+	</head>
+	<body>
+		<p>Do you prefer cats or dogs ?</p>
+	<form>	
+		<label for="dogs"> Dogs:  </label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<label for="cats" > cats: </label>
+	<input name="petChoice" id="cats" type="radio"  value="CATS">
+
+	
+	<p> Whats your favorite color</p>
+
+	<select name="color">	
+	<option>red</option>
+	<option >blue </option>
+	<option>orange</option>
+	</select>
+
+	<textarea rows="10" cols="10"> write here something</textarea>
+
+	<button>Go!!!</button>
+</form>
+	</body>
+	</html>
